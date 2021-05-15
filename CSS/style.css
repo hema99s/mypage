@@ -1,13 +1,41 @@
 html{
-
-    background: url(https://wallpaperaccess.com/full/2028898.jpg);
+  background: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-elegant-light-blue-line-background-image_272095.jpg);
 }
+
+  
+
+.theme-light {
+  background: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-elegant-light-blue-line-background-image_272095.jpg);
+}
+.theme-dark {
+  background: url(https://wallpapercave.com/wp/xpLQPcj.jpg) ;
+}
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: var(--color-secondary);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container h1 {
+  color: var(--font-color);
+}
+.container button {
+  color: var(--font-color);
+  background: rgb(245, 107, 238);
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 5px;
+}
+
 .prof-box {
     width: 600px;
     height: 1000px;
     padding: 40px;
-    background:url(https://wallpaperaccess.com/full/340599.jpg);
-    color: teal;
+    background:url(https://wallpapercave.com/wp/wp3006146.jpg);
+    color:greenyellow;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -16,11 +44,13 @@ html{
 
 }
 h3{
-    color: wheat;
+    color:violet;
 }
 h1{
-    color: yellow;
-}
-p{
     color: turquoise;
 }
+p{
+    color: rgb(141, 236, 149);
+}
+
+
